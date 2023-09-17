@@ -1,0 +1,20 @@
+Métodos úteis da classe string
+
+ - A classe String do Python é famosa por ser rica em métodos e possuir uma interface muito
+fácil de trabalhar.
+ Em algumas linguagens manipular sequências de caracteres não é um trabalho trivial porém,
+em Python esse trabalho é muito simples.
+	
+ Interpolação de variáveis
+
+ - Em Python temos 3 formas de interpolar variáveis em strings, a primeira é usando o sinal %,
+a segunda é utilizando o método format e a última é utilizando f strings.
+   A primeira forma não é atualmente recomendada e seu uso em Python 3 é raro por esse motivo
+iremos focar nas 2 últimas.
+
+  No codigo usaremos %s quanto vc quer concatenar um valor do tipo string.
+  %d para valores inteiros e %f para valores de ponto flutuante.
+
+	Fatiamento de Strings
+  - É uma técnica utilizada para retornar substrings(partes da string orginal), informando
+inicio(start), fim(stop) e passo (step): [start:stop[,step]].

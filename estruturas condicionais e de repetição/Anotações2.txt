@@ -1,0 +1,57 @@
+Estruturas Condicionais
+  - A estrutura condicional permite o desvio de fluxo de controle, quando determinadas
+espressões lígicas são atendidas.
+	IF - Para criar uma estrutura condicional simples, composta por um único desvio,
+podemos utilizar a palavra reservada if. O comando irá testar a expressão lógica, e em
+caso de retorno verdadeiro as ações presentes no bloco de código do if serão executadas.
+
+	Para criar uma estrutura condicional com dois desvios, podemos utilizar as palavras
+reservadas if e else. Como sabemos se a expressão lógica testada no if for verdadeira, então
+o bloco de codigo if será execultado. Caso contrário o bloco de codigo do else será 
+executado.
+
+	IF/ELIF/ELSE
+ -Em alguns cenários queremos mais de dois desvios, para isso podemos utilizar a palavra
+reservada elif. O elif é composto por uma nova expressão lógica, que sera testada e caso
+retorne verdadeiro o bloco de codigo elif será executado. N existe um número máximo de 
+elifs que podemos utilizar, porém evite criar grandes estruturas condicionais, pois elas 
+aumentam a complexidade do codigo.
+
+      *comentarios longos em Python deve se utilizar tres aspas no inicio e no fim """*
+
+If aninhado
+ -Podemos criar estruturas condicionais aninhadas, para isso basta adicionar estruturas
+if/elif/else dentro do bloco de codigo de estruturas if/elif/else.
+
+If Ternário
+ -O if ternário permite escrever uma condição em uma única linha. Ele é composto por
+três partes, a primeira é o retorno caso a expressão retorne verdadeiro, a segunda é a 
+expressão lógica e a terceira parte é o retorno caso a expressão n seja atendida.
+
+Estruturas de repetição
+ -São estruturas utilizadas para repetir um trecho de um codigo um determinado número de
+vezes. Esse número pode ser conhecido previamente ou determinado através de uma expressão
+lógica.
+
+Comando For
+ -O comando for é usado para percorrer um objeto iterável. Faz sentido usar for quando
+sabemos o número exato de vezes que nosso bloco de código deve ser executado, ou quando
+queremos percorrer um objeto iterável.
+	*Uma string em python é um objeto iterável*
+
+*letra.upper() transforma uma letra minuscula em  maiuscula*
+
+	FUNÇÃO RANGE
+ -Range é uma função built-in do Python, ela é usada para produzir uma sequência de números
+inteiros a partir de uma inicio(inclusivo) para um fim (exclusivo). exemplo:
+	Se usarmos range(i,j) será produzido:
+		i,i+1,i+2,i+3,...,j-1.
+	Ela recebe 3 argumentos: stop (obrigatório) start (opcional) e step (opcional).
+*Execultado no terminal*
+
+	Comando while
+ -O comando while é usado para repetir um bloco de código várias vezes. Faz sentido usar
+while quando não sabemos o número exato de vezes que nosso bloco de código deve ser executado.
+
+A diferença entre o if e o while é que o if testa e execulta uma unica vez. O while vai 
+execultar toda vez que a condição for atendida

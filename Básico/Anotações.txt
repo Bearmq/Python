@@ -1,0 +1,72 @@
+Em Python podemos declarar duas variaveis em uma so linha separando-nas por virgula.
+  -Não podemos simplesmente criar uma variavel sem atribuir um valor.
+  -Para alterar os valores da variavel, é so atribuir novos valores.
+
+Constantes
+ -Assim como as variáveis, constantes são utilizadas para armazenar valores. 
+Uma constante nasce com com um valor e permanece com ele até o final da execução
+do programa, ou seja, o valor é imutável.
+
+*Python n tem constantes*
+ -N exite uma palavra reservada para informar o interpretador que o valor é constante.
+ -Em Python usamos a convenção que diz ao programador que a variável é uma constante.
+Pra fazer isso, vc deve criar a variável com o nome todo em letras maíusculas: AGE, NAME...
+
+  -Padrão de nome deve ser em snake case: nome_completo.
+  -Escolha nomes sugestivos.
+  -Nome de constante todo em maiúsculo.
+
+*Covertendo tipos*
+ -Em alguns momentos será necessario converter o tipo de uma variável para manipular de
+forma diferente. Por exemplo: Variaveis do tipo string, que armazenam números e precisamos
+fazer alguma operação matematica com esse valor.
+
+* adiciona comentario no codigo # *
+
+Função input
+ -A função builtin input é utilizada quando queremos ler dados da entrada padrão(teclado).
+Ela recebe um argumento do tipo string, que é exibido para o usuario na saida padrao(tela).
+A função lê a entrada, converte para string e retorna o valor.
+
+*para limpar o terminal é so digitar cls*
+
+Operadores Aritmeticos
+ -Executam operações matematicas, como adição, subtração com operandos.
+
+Definição de ordem que o Python segue para fazer contas:
+ -Parêntesis
+ -Expoêntes
+ -Multiplicações e divisões(da esquerda para a direita)
+ -Soma e subtrações(da esquerda para a direita)
+Caso eu queria que o python resolva a subtração primeiro, é so pô-lo entre parentesis.
+
+Operadores de Atribuição
+ -São operadores utilizados para definir o valor inicial ou sobrescrever o valor de uma
+variavel.
+
+Operadores Logicos
+ -São operadores utilizados em conjunto com os operadores de comparação(>, <, !),
+para montar uma expressão lógica. Quando um operador de comparação é utilizado, o 
+resultado retornado é um booleano, dessa forma podemos combinar operadores de 
+comparação com os operadores lógicos.
+
+Operadores de Identidade
+ -o operador de identidade é o IS e IS NOT
+São operadores utilizados para comparar se os dois objetos testados ocupam a msm
+posição na memória.
+
+Operadores de Associação
+ -São operadores utilizados para verificar se o objeto está presente em uma sequência.
+
+Identação e Blocos
+ 
+  -Identar código é uma forma de manter o codigo fonte mais legível e manutenível.
+Mas em Python ela exerce um segundo papel, através da identação o interpretador
+consegue determinar onde um bloco de comando inicia e onde ele termina.
+
+Utilizando espaços
+ -Exite uma convenção em Python, que define as boas praticas para a escrita do codigo
+na linguagem. Nesse documento é indicado utilizar 4 espaços em branco por nivel de identação,
+ou seja, a cada novo bloco adicinamos 4 novos espaços em branco.
+  *caracter para iniciar bloco em Python é : *
+
